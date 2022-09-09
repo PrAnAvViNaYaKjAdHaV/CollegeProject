@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {mobile} from '../../responsive'
 export const Container = styled.div`
   display: flex;
-  /* ${({ flexDirection: "column" })} */
+  ${mobile({ flexDirection: "column" })}
 `;
 
 export const Left = styled.div`

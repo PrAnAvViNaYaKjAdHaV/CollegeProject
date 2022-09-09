@@ -11,7 +11,7 @@ import {
   SearchContainer,
   Input,
   Logo,
-  MenueItem
+  MenuItem
 } from "./Navbar.style";
 const Navbar = () => {
   return (
@@ -26,13 +26,13 @@ const Navbar = () => {
         </Left>
         <Center><Logo>Liebe</Logo></Center>
         <Right>
-         <MenueItem>REGISTER</MenueItem>
-         <MenueItem>SIGN IN</MenueItem>
-          <MenueItem>
+         <MenuItem>REGISTER</MenuItem>
+         <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>
               <Badge badgeContent = {4} color="primary">
                 <ShoppingCartOutlined/>
               </Badge>
-          </MenueItem>
+          </MenuItem>
         </Right>
       </Wrapper>
     </Container>
